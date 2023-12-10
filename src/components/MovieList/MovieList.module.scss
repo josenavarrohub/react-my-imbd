@@ -1,0 +1,16 @@
+.c-movie-list {
+    .query {
+        position: relative;
+        margin-left: 1rem;
+        
+        &:before {
+            background: #EFC22A;
+            border-radius: 20px;
+            content: '';
+            margin-left: -1rem;
+            position: absolute;
+            height: 100%;
+            width: 4px;
+        }
+    }
+}

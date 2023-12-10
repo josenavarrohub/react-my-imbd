@@ -1,0 +1,31 @@
+.c-movie-item {
+    .card {
+        overflow: hidden;
+
+        img {
+            cursor: pointer;
+        }
+
+        &:hover {
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+
+            .poster {
+                transform: scale(1.05);
+            }
+        }
+        
+    }
+
+    .poster {
+        transition: transform 0.3s ease-in-out;
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .title {
+        min-height: 50px;
+    }
+}
